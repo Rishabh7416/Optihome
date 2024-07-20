@@ -1,0 +1,93 @@
+/* AutomationRules.css */
+.automation-rules-container {
+    background: #1f1f1f;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    max-width: 800px;
+    margin: 0 auto;
+    color: #e0e0e0;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .automation-rules-container h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #4caf50;
+    text-align: center;
+  }
+  
+  .automation-rules-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .automation-rules-container input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1rem;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background: #333;
+    color: #fff;
+    transition: background 0.3s, border-color 0.3s;
+  }
+  
+  .automation-rules-container input:focus {
+    background: #444;
+    border-color: #4caf50;
+    outline: none;
+  }
+  
+  .automation-rules-container button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #4caf50;
+    color: #fff;
+    transition: background 0.3s;
+    margin-top: 10px;
+  }
+  
+  .automation-rules-container button:hover {
+    background: #66bb6a;
+  }
+  
+  .automation-rules-container ul {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .automation-rules-container li {
+    background: #292929;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+  }
+  
+  .automation-rules-container li button {
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    background: #d32f2f;
+    color: #fff;
+    transition: background 0.3s;
+  }
+  
+  .automation-rules-container li button:hover {
+    background: #ef5350;
+  }
+  
